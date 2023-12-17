@@ -7,17 +7,17 @@ website:
   navbar:
     search: true
     left:
-      - text: Home
+      - text: Homepage
         href: index.qmd
       - text: About Me
         href: about.qmd
-      - text: My Posts
+      - text: Posts
         href: posts.qmd
       - text: "EMU430 Coursework"
         menu:
-          - text: Assignments
+          - text: My Assignments
             href: assignments.qmd
-          - text: Project
+          - text: Data_Ciphers Project
             href: project.qmd
             
     tools:
@@ -26,7 +26,7 @@ website:
       - icon: twitter
         href: https://twitter.com
       - icon: linkedin
-        href: https://www.linkedin.com
+        href: https://www.linkedin.com/in/doga-oral/
 
   sidebar:
     - title: "Assignments"

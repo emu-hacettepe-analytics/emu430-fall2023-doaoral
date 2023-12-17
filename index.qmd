@@ -1,12 +1,11 @@
 ---
-title: "Welcome to My Analytics Lab"
+title: "Welcome to my homepage!"
 sidebar: false 
 ---
 
-Hello! My name is Doga.
+hi! im doğa and this is my first personal webpage.
 
-This is my first personal webpage.
+stay tuned to follow my works on data analytics and my existential crises.
 
-Please stay tuned to follow my works on data analytics, blog posts, and more.
 
-This is our template.
+

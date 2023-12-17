@@ -3,28 +3,22 @@ title: "About Me"
 sidebar: false 
 ---
 
-# Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
 
-# Work Experience
+# Education {style="font-family: \"Comic Sans MS\", cursive, sans-serif; font-size: 16px; letter-spacing: 2px; word-spacing: 2px; color: #000000; font-weight: 700; text-decoration: none solid rgb(68, 68, 68); font-style: italic; font-variant: small-caps; text-transform: lowercase;"}
 
-## Employements
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2019 - ongoing.
 
-1.  Firm xxx, position xx, year xxx
+## Internships {style="font-family: \"Comic Sans MS\", cursive, sans-serif; font-size: 16px; letter-spacing: 2px; word-spacing: 2px; color: #000000; font-weight: 700; text-decoration: none solid rgb(68, 68, 68); font-style: italic; font-variant: small-caps; text-transform: lowercase;"}
 
-2.  Firm yyy, position yyy, year yyy
+1.  ARD Grup Bilişim Teknolojileri A.Ş., Summer Intern, 2023
 
-## Internships
-
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
-
-# Projects
-
-# Competencies
+# Competencies {style="font-family: \"Comic Sans MS\", cursive, sans-serif; font-size: 16px; letter-spacing: 2px; word-spacing: 2px; color: #000000; font-weight: 700; text-decoration: none solid rgb(68, 68, 68); font-style: italic; font-variant: small-caps; text-transform: lowercase;"}
 
 R, Quarto, Git, Python
 
-# Hobbies
+# Hobbies {style="font-family: \"Comic Sans MS\", cursive, sans-serif; font-size: 16px; letter-spacing: 2px; word-spacing: 2px; color: #000000; font-weight: 700; text-decoration: none solid rgb(68, 68, 68); font-style: italic; font-variant: small-caps; text-transform: lowercase;"}
+
+-   Reading
+-   Writing
+-   Playing video games
