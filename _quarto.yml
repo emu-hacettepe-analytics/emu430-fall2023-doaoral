@@ -3,7 +3,11 @@ project:
   output-dir: docs
 
 website:
+<<<<<<< Updated upstream
   title: "Doga's Analytics Lab"
+=======
+  title: "Doğa's Analytics Lab"
+>>>>>>> Stashed changes
   navbar:
     search: true
     left:
@@ -26,7 +30,11 @@ website:
       - icon: twitter
         href: https://twitter.com
       - icon: linkedin
+<<<<<<< Updated upstream
         href: https://www.linkedin.com/in/doga-oral/
+=======
+        href: https://www.linkedin.com
+>>>>>>> Stashed changes
 
   sidebar:
     - title: "Assignments"

@@ -1,11 +1,19 @@
 ---
 title: "Welcome to my homepage!"
 sidebar: false 
+about:
+  template: trestles
+  image: IMG_20200731_180222.jpg
 ---
 
+<<<<<<< Updated upstream
 hi! im doğa and this is my first personal webpage.
 
 stay tuned to follow my works on data analytics and my existential crises.
 
 
 
+=======
+hi! i'm doğa. i will be sharing my journey through this little space i now own. and i have absolutely zero idea what i'm doing!
+please stay tuned so you can also experience the pain of existence and academics with me. it is all so worth it in the end.
+>>>>>>> Stashed changes

@@ -5,10 +5,15 @@ sidebar: false
 
 # Education {style="font-family: \"Comic Sans MS\", cursive, sans-serif; font-size: 16px; letter-spacing: 2px; word-spacing: 2px; color: #000000; font-weight: 700; text-decoration: none solid rgb(68, 68, 68); font-style: italic; font-variant: small-caps; text-transform: lowercase;"}
 
+<<<<<<< Updated upstream
 -   B.S., Industrial Engineering, Hacettepe University, Turkey, 2019 - ongoing
+=======
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2019 - ongoing.
+>>>>>>> Stashed changes
 
 ## Internships {style="font-family: \"Comic Sans MS\", cursive, sans-serif; font-size: 16px; letter-spacing: 2px; word-spacing: 2px; color: #000000; font-weight: 700; text-decoration: none solid rgb(68, 68, 68); font-style: italic; font-variant: small-caps; text-transform: lowercase;"}
 
+<<<<<<< Updated upstream
 1.  ARD Grup Bilişim Teknolojileri A.Ş., Summer Intern, 2023
 
 # Competencies {style="font-family: \"Comic Sans MS\", cursive, sans-serif; font-size: 16px; letter-spacing: 2px; word-spacing: 2px; color: #000000; font-weight: 700; text-decoration: none solid rgb(68, 68, 68); font-style: italic; font-variant: small-caps; text-transform: lowercase;"}
@@ -20,3 +25,21 @@ R, Quarto, Git, Python
 -   Reading
 -   Writing
 -   Listening to music
+=======
+## Internships
+
+1.  ARD Grup Bilişim Teknolojileri A.Ş., 2023
+
+# Projects
+
+# Competencies
+
+R, Quarto, Git, Python
+
+# Hobbies
+
+* Reading
+I have been reading less than I would like to these few past years, sadly, but I am trying my best to catch up! You can find my Storygraph account here!
+* Writing
+* Solving puzzles!
+>>>>>>> Stashed changes
