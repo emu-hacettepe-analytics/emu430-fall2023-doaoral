@@ -1,11 +1,12 @@
 ---
-title: "Welcome to my homepage!"
+title: "Welcome! Enjoy your stay (optional)."
 sidebar: false 
+about:
+  template: trestles
 ---
 
-hi! im doğa and this is my first personal webpage.
+> **"To go wrong in one's own way is better than to go right in someone else's."** *(Fyodor M. Dostoevsky)*
 
-stay tuned to follow my works on data analytics and my existential crises.
+Hi! I'm Doğa and I will be sharing my data analysis journey through this little space I now own. And, to make thing a bit more interesting, I have no idea what I am doing!
 
-
-
+Please stay tuned so you too can experience the pain of existence of academics with me. Here's to hoping it will be worth it!

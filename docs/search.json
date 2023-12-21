@@ -2,16 +2,16 @@
   {
     "objectID": "project.html",
     "href": "project.html",
-    "title": "Our Course Project",
+    "title": "Data_Ciphers",
     "section": "",
-    "text": "I’m honored to be a member of the [group name] project team.\nBelow, you’ll find a brief summary of our project. To access a detailed project description, please go to https://[your-project-url].\nSummary\n[provide a biref summary of your project]\n\n\n\n Back to top"
+    "text": "I’m honored to be a member of the data_ciphers project team.\n\n\n\n\n\nBelow, you’ll find a brief summary of our project. To access a detailed project description, please click here.\nSummary\nWe have chosen the Turkey Health Survey data from the Turkey Statistical Institute for our analysis. The Turkey Health Survey is a research project that aims to understand overall health and collect data on key health indicators to measure the development of the country. The study provides international comparisons and insights into national health needs. We selected the ‘Turkey Health Survey’ data set because it covers a wide range of health-related information in Turkey, including health habits, healthcare utilization, prevalent diseases, and demographic details. As a team, we aim to analyze health patterns across different gender and age groups, identify variations in health behaviors and disease occurrence, and understand health service utilization. Our ultimate goal is to provide valuable insights for health policies and activities.\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to my homepage!",
+    "title": "Welcome! Enjoy your stay (optional).",
     "section": "",
-    "text": "hi! im doğa and this is my first personal webpage.\nstay tuned to follow my works on data analytics and my existential crises.\n\n\n\n Back to top"
+    "text": "“To go wrong in one’s own way is better than to go right in someone else’s.” (Fyodor M. Dostoevsky)\n\nHi! I’m Doğa and I will be sharing my data analysis journey through this little space I now own. And, to make thing a bit more interesting, I have no idea what I am doing!\nPlease stay tuned so you too can experience the pain of existence of academics with me. Here’s to hoping it will be worth it!\n\n\n Back to top"
   },
   {
     "objectID": "assignments/assignment-2.html",
@@ -25,7 +25,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "B.S., Industrial Engineering, Hacettepe University, Turkey, 2019 - ongoing\n\n\n\n\nARD Grup Bilişim Teknolojileri A.Ş., Summer Intern, 2023"
+    "text": "B.S., Industrial Engineering, Hacettepe University, Turkey, 2019 - ongoing.\nYou can access my resume here.\n\n\n\n\n\n\n\n\n\nARD GROUP Information Technologies Inc., 2023\n\n\n\n\n\nBozankaya Electric Commercial Vehicles and Rail Systems Production Center, 2023"
   },
   {
     "objectID": "about.html#employements",
@@ -46,20 +46,69 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+    "text": "Our first assignment has four parts. Let’s walk through them."
   },
   {
     "objectID": "assignments.html",
     "href": "assignments.html",
-    "title": "My Assignments",
+    "title": "EMU430 Assignments",
     "section": "",
-    "text": "On this page, I showcase the assignment I conducted for the [Fall 2023] EMU 430 Data Analytics course.\nPlease use left menu to navigate through my assignments.\n\n\n\n Back to top"
+    "text": "On this page, you can see my EMU430 assignments, but you can’t see the blood , sweat and tears involved in the process. Which is a win for me and a win for you!\nPlease use the menu on the left to navigate through my assignments.\n\n\n\n Back to top"
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "My Blog",
     "section": "",
-    "text": "This page is under construction.\n\n\n\n Back to top"
+    "text": "This page is currently under construction. Please come back later!\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html#internships-and-graduation-projects",
+    "href": "about.html#internships-and-graduation-projects",
+    "title": "About Me",
+    "section": "",
+    "text": "ARD GROUP Information Technologies Inc., 2023\n\n\n\n\n\nBozankaya Electric Commercial Vehicles and Rail Systems Production Center, 2023"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a-video-summary",
+    "href": "assignments/assignment-1.html#a-video-summary",
+    "title": "Assignment 1",
+    "section": "(a) Video Summary",
+    "text": "(a) Video Summary\nIn part (a) we were asked to pick a video from one of the provided sources and give a brief summary in our Quarto document.\nThe video I chose is called “Quarto for Academics” and it is by Mine Çetinkaya-Rundel. (ps. I am aware I am not an academic.)\n\nIn this video, some of Quarto’s features that are especially useful for academics are highlighted. I took my notes in bullet-point format, so that’s how I will be touching on these features.\n\nHyperlinking R functions in slides\n\nEducators encourage students to read about the function used in slides and will often recommend googling- We can do one better: In the YAML, add a field called code-link : true under html and now the R functions are hyperlinked.\n\nAdding code chunk options: Hiding code chunks and its warnings/messages:\n\ninclude : false\n\nGoing from writing code notes to writing slides is made easy by simply changing the format of the source document in the YAML:\n\nformat: revealjs → creates html slides\n\nThe sidebar tool that allows a lot of handy functionalities like the pdf export mode.\nAnnotating the slides → can be done by adding fields to the YAML (again).\n* format:*\n   * revealjs:*\n        * chalkboard: true*\n\nCan save annotated version of the slides if you want to publish those as well.\n\nAnother handy tool is while you advance through the slides the posted version of the slides advance as well so any students that might’ve missed where you were in the slides can follow along easily if they have it open on their computers.\n\nmultiplex: true\n\nThe revealjs mode automatically hides code chunks which is not particularly helpful if you are trying to teach the code.\n\n* execute:*\n* echo: true*\n\nHighlighting code lines with code-line-numbers: “|x|y-z”\noutput-location: default → the output shows up underneath the code\n\n   output-location: slide → the output shows up in the next slide\n\nCode chunk options are invisible in the slides but if you are trying to use Quarto to teach Quarto you can add another code chunk option to reveal them → echo: fenced\n\nThe echo: fenced code chunk option isn’t revealed when you do this and reveal the code chunk options! That’s kinda cool!\n\nResearch aspect\n\nQuatro comes with article templates.\nCitation - either use the insert menu and choose citation, or use insert anything tool and pick citation.\n\nYou can link any resources like zotero or crossref into your rstudio for easy referencing/citation as long as they’re also running on your computer.\nWhat if you don’t use tools like zotero and you want to add something from like, say, Google Scholar:\n\nGrab the doi of the paper.\n“Insert anything” tool → Citation → From doi\n\nThey both add the new added citation to the bib file automatically (bibliography)."
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b",
+    "href": "assignments/assignment-1.html#b",
+    "title": "Assignment 1",
+    "section": "(b)",
+    "text": "(b)"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b-r-vs.-python",
+    "href": "assignments/assignment-1.html#b-r-vs.-python",
+    "title": "Assignment 1",
+    "section": "(b) R vs. Python",
+    "text": "(b) R vs. Python\nIn this part we were asked to demonstrate and explain three differences between R and Python.\n1. Python is a general-purpose programming language, while R is a statistical programming language. This means that Python is more versatile and can be used for a wider range of tasks, such as web development, data manipulation, and machine learning. R, on the other hand, is primarily used for statistical analysis and data visualization. Source.\n2. R uses 1-based indexing while Python uses 0-based indexing.\nHere’s how the syntax looks on an R code:\nx &lt;- c(1, 2, 3, 4, 5) \nsecond_element &lt;- x[2]\nAnd here’s what the same operation would look like in Python:\nx = [1, 2, 3, 4, 5] \nsecond_element = x[1]\n3. Python supports all kinds of data formats, from CSV files to JSON sourced from the web. You can also import SQL tables directly into your Python code. In contrast, R is designed for data analysts to import data from Excel, CSV and text files. Source."
+  },
+  {
+    "objectID": "assignments/assignment-1.html#c-importing-a-data-set",
+    "href": "assignments/assignment-1.html#c-importing-a-data-set",
+    "title": "Assignment 1",
+    "section": "(c) Importing a Data Set",
+    "text": "(c) Importing a Data Set\nIn this part, we are tasked with importing a dataset called na_example from the dslabs package of R. And then some more steps. I found this part to be the hardest for me. Thankfully I had my friend Mert to help me. Check is website out here!\nlibrary(dslabs)\ndata(\"na_example\")\nna_example\n# Total number of NA:\nsum(is.na(na_example))\nno_na_example &lt;- ifelse(is.na(na_example), 0, na_example)\nno_na_example\n# Total number of NA new:\nsum(is.na(no_na_example))"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#d-rendering-committing-and-deploying",
+    "href": "assignments/assignment-1.html#d-rendering-committing-and-deploying",
+    "title": "Assignment 1",
+    "section": "(d) Rendering, Committing and Deploying",
+    "text": "(d) Rendering, Committing and Deploying\nWell, if you’re reading this, I probably did it!"
+  },
+  {
+    "objectID": "project.html#our-course-project",
+    "href": "project.html#our-course-project",
+    "title": "Data_Ciphers",
+    "section": "",
+    "text": "I’m honored to be a member of the data_ciphers project team.\n\nBelow, you’ll find a brief summary of our project. To access a detailed project description, please click here.\nSummary\nWe have chosen the Turkey Health Survey data from the Turkey Statistical Institute for our analysis. The Turkey Health Survey is a research project that aims to understand overall health and collect data on key health indicators to measure the development of the country. The study provides international comparisons and insights into national health needs. We selected the ‘Turkey Health Survey’ data set because it covers a wide range of health-related information in Turkey, including health habits, healthcare utilization, prevalent diseases, and demographic details. As a team, we aim to analyze health patterns across different gender and age groups, identify variations in health behaviors and disease occurrence, and understand health service utilization. Our ultimate goal is to provide valuable insights for health policies and activities."
   }
 ]
