@@ -2,14 +2,123 @@
 title: "Assignment 1"
 ---
 
-# Assignment 1
+Our first assignment has four parts. Let's walk through them.
 
-```{r}
-1 + 1
+## (a) Video Summary
+
+In part (a) we were asked to pick a video from one of the provided sources and give a brief summary in our Quarto document.
+
+The video I chose is called "Quarto for Academics" and it is by Mine Çetinkaya-Rundel. (*ps. I am aware I am not an academic.*)
+
+{{< video https://www.youtube.com/watch?v=EbAAmrB0luA >}}
+
+In this video, some of Quarto's features that are especially useful for academics are highlighted. I took my notes in bullet-point format, so that's how I will be touching on these features.
+
+-   **Hyperlinking R functions in slides**
+
+    -   Educators encourage students to read about the function used in slides and will often recommend googling- We can do one better: In the YAML, add a field called *code-link : true* under *html* and now the R functions are hyperlinked.
+
+-   **Adding code chunk options: Hiding code chunks and its warnings/messages:**
+
+    -   *include : false*
+
+-   **Going from writing code notes to writing slides is made easy by simply changing the format of the source document in the YAML:**
+
+    -   *format: revealjs* → creates html slides
+
+-   **The sidebar tool that allows a lot of handy functionalities like the pdf export mode.**
+
+-   **Annotating the slides → can be done by adding fields to the YAML (again).**
+
+    | \* format:\*
+
+    |    \* revealjs:\*
+
+    |         \* chalkboard: true\*
+
+    -   Can save annotated version of the slides if you want to publish those as well.
+
+-   **Another handy tool is while you advance through the slides the posted version of the slides advance as well so any students that might've missed where you were in the slides can follow along easily if they have it open on their computers.**
+
+    -   *multiplex: true*
+
+-   **The revealjs mode automatically hides code chunks which is not particularly helpful if you are trying to teach the code.**
+
+    -   
+
+        | \* execute:\*
+
+        | \* echo: true\*
+
+-   **Highlighting code lines with** *code-line-numbers: "\|x\|y-z"*
+
+-   
+
+    | *output-location: default* → the output shows up underneath the code
+
+|    *output-location: slide* → the output shows up in the next slide
+
+-   **Code chunk options are invisible in the slides but if you are trying to use Quarto to teach Quarto you can add another code chunk option to reveal them → echo: fenced**
+
+    -   The *echo: fenced* code chunk option isn't revealed when you do this and reveal the code chunk options! That's kinda cool!
+
+-   **Research aspect**
+
+    -   Quatro comes with article templates.
+
+    -   Citation - either use the insert menu and choose citation, or use insert anything tool and pick citation.
+
+        -   You can link any resources like *zotero* or *crossref* into your rstudio for easy referencing/citation as long as they're also running on your computer.
+
+        -   What if you don't use tools like *zotero* and you want to add something from like, say, *Google Scholar*:
+
+            -   Grab the doi of the paper.
+
+            -   "Insert anything" tool → Citation → From doi
+
+        -   They both add the new added citation to the bib file automatically (bibliography).
+
+## (b) R vs. Python
+
+In this part we were asked to demonstrate and explain three differences between R and Python.
+
+**1.** Python is a general-purpose programming language, while R is a statistical programming language. This means that Python is more versatile and can be used for a wider range of tasks, such as web development, data manipulation, and machine learning. R, on the other hand, is primarily used for statistical analysis and data visualization. [*Source.*](https://www.datacamp.com/blog/python-vs-r-for-data-science-whats-the-difference)
+
+**2.** R uses 1-based indexing while Python uses 0-based indexing.
+
+Here's how the syntax looks on an R code:
+
+``` r
+x <- c(1, 2, 3, 4, 5) 
+second_element <- x[2]
 ```
 
-My first assignment has two parts.
+And here's what the same operation would look like in Python:
 
-## (a)
+``` python
+x = [1, 2, 3, 4, 5] 
+second_element = x[1]
+```
 
-## (b)
+**3.** Python supports all kinds of data formats, from CSV files to JSON sourced from the web. You can also import SQL tables directly into your Python code. In contrast, R is designed for data analysts to import data from Excel, CSV and text files. [*Source.*](https://www.ibm.com/blog/python-vs-r/)
+
+## (c) Importing a Data Set
+
+In this part, we are tasked with importing a dataset called na_example from the dslabs package of R. And then some more steps. I found this part to be the hardest for me. Thankfully I had my friend Mert to help me. Check is website out [here](https://emu-hacettepe-analytics.github.io/emu430-fall2023-mer7kaplan/)!
+
+``` R
+library(dslabs)
+data("na_example")
+na_example
+# Total number of NA:
+sum(is.na(na_example))
+no_na_example <- ifelse(is.na(na_example), 0, na_example)
+no_na_example
+# Total number of NA new:
+sum(is.na(no_na_example))
+```
+
+## (d) Rendering, Committing and Deploying
+
+Well, if you're reading this, I probably did it!
+

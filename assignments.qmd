@@ -1,9 +1,7 @@
 ---
-title: "My Assignments"
+title: "EMU430 Assignments"
 ---
 
-On this page, I showcase the assignment I conducted for the \[Fall 2023\] EMU 430 Data Analytics course.
+On this page, you can see my EMU430 assignments, but you can't see the blood , sweat and tears involved in the process. Which is a win for me and a win for you!
 
-Please use left menu to navigate through my assignments.
-
-
+Please use the menu on the left to navigate through my assignments.

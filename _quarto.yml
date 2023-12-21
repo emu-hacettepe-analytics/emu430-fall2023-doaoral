@@ -3,11 +3,7 @@ project:
   output-dir: docs
 
 website:
-<<<<<<< Updated upstream
-  title: "Doga's Analytics Lab"
-=======
   title: "Doğa's Analytics Lab"
->>>>>>> Stashed changes
   navbar:
     search: true
     left:
@@ -25,16 +21,20 @@ website:
             href: project.qmd
             
     tools:
+      - icon: book-half
+        menu:
+          - text: Stroygraph
+            href: https://app.thestorygraph.com/profile/litstlg
+          - text: Goodreads
+            href: https://www.goodreads.com/user/show/63667966-doa
       - icon: github
-        href: https://github.com
-      - icon: twitter
-        href: https://twitter.com
+        menu:
+         - text: Personal
+           href: https://github.com/emu-hacettepe-analytics/emu430-fall2023-doaoral
+         - text: data_ciphers 
+           href: https://github.com/emu-hacettepe-analytics/emu430-fall2023-team-data_ciphers
       - icon: linkedin
-<<<<<<< Updated upstream
         href: https://www.linkedin.com/in/doga-oral/
-=======
-        href: https://www.linkedin.com
->>>>>>> Stashed changes
 
   sidebar:
     - title: "Assignments"
@@ -54,8 +54,7 @@ format:
     toc: true
     toc-location: left
     theme: 
-      light: pulse
-      dark: superhero
+      light: lux
     css: styles.css
 
 editor: visual

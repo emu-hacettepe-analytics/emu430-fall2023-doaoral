@@ -1,45 +1,63 @@
 ---
 title: "About Me"
 sidebar: false 
+about:
+  template: trestles
 ---
 
-# Education {style="font-family: \"Comic Sans MS\", cursive, sans-serif; font-size: 16px; letter-spacing: 2px; word-spacing: 2px; color: #000000; font-weight: 700; text-decoration: none solid rgb(68, 68, 68); font-style: italic; font-variant: small-caps; text-transform: lowercase;"}
+# Education
 
-<<<<<<< Updated upstream
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 2019 - ongoing
-=======
 -   B.S., Industrial Engineering, Hacettepe University, Turkey, 2019 - ongoing.
->>>>>>> Stashed changes
 
-## Internships {style="font-family: \"Comic Sans MS\", cursive, sans-serif; font-size: 16px; letter-spacing: 2px; word-spacing: 2px; color: #000000; font-weight: 700; text-decoration: none solid rgb(68, 68, 68); font-style: italic; font-variant: small-caps; text-transform: lowercase;"}
+-   You can access my resume [here](resume.pdf).
 
-<<<<<<< Updated upstream
-1.  ARD Grup Bilişim Teknolojileri A.Ş., Summer Intern, 2023
+    [![](hacettepe.png){fig-align="center" width="184"}](https://ie.hacettepe.edu.tr)
 
-# Competencies {style="font-family: \"Comic Sans MS\", cursive, sans-serif; font-size: 16px; letter-spacing: 2px; word-spacing: 2px; color: #000000; font-weight: 700; text-decoration: none solid rgb(68, 68, 68); font-style: italic; font-variant: small-caps; text-transform: lowercase;"}
+## Internships and Graduation Projects
 
-R, Quarto, Git, Python
+-   ARD GROUP Information Technologies Inc., 2023
 
-# Hobbies {style="font-family: \"Comic Sans MS\", cursive, sans-serif; font-size: 16px; letter-spacing: 2px; word-spacing: 2px; color: #000000; font-weight: 700; text-decoration: none solid rgb(68, 68, 68); font-style: italic; font-variant: small-caps; text-transform: lowercase;"}
+    [![](ard-bilisim.png){fig-align="center" width="184"}](https://www.ardbilisim.com.tr)
 
--   Reading
--   Writing
--   Listening to music
-=======
-## Internships
+-   Bozankaya Electric Commercial Vehicles and Rail Systems Production Center, 2023
 
-1.  ARD Grup Bilişim Teknolojileri A.Ş., 2023
+[![](bozankaya.png){fig-align="center" width="184"}](https://www.bozankaya.com.tr)
 
 # Projects
 
+-   Stay tuned to find out!
+
 # Competencies
 
-R, Quarto, Git, Python
+-   R
+
+-   Quarto
+
+-   Git
+
+-   Github
+
+-   Python
+
+-   Microsoft Office Programs
 
 # Hobbies
 
-* Reading
-I have been reading less than I would like to these few past years, sadly, but I am trying my best to catch up! You can find my Storygraph account here!
-* Writing
-* Solving puzzles!
->>>>>>> Stashed changes
+This is my favorite section! Let's talk about what I like!
+
+-   Reading
+
+    -   I will be honest, I have been reading much less than I would like to, but I am trying my best to catch up! You can find my *storygraph* [here](https://app.thestorygraph.com/profile/litstlg) and my *goodreads* [here](https://www.goodreads.com/user/show/63667966-doa).
+    -   My reading goal for 2024 is 30 books, which isn't a lot, but it's realistic and that's what matters. (Right?)
+
+-   Writing
+
+    -   I have been writing since middle school and even though I've never won [NaNoWriMo](https://nanowrimo.org) yet, I never lose hope that maybe next year will be the year I win my first NaNoWriMo.
+
+-   Listening to music
+
+    -   This section will be update with a playlist soon!
+
+-   Solving puzzles
+
+    -   If I don't do my NYT puzzles every day I can't go to sleep. It might be a problem.
