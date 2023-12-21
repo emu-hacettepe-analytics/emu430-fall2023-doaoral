@@ -29,10 +29,10 @@ website:
             href: https://www.goodreads.com/user/show/63667966-doa
       - icon: github
         menu:
-         - text: Personal
-           href: https://github.com/emu-hacettepe-analytics/emu430-fall2023-doaoral
-         - text: data_ciphers 
-           href: https://github.com/emu-hacettepe-analytics/emu430-fall2023-team-data_ciphers
+          - text: Personal
+            href: https://github.com/emu-hacettepe-analytics/emu430-fall2023-doaoral
+          - text: data_ciphers 
+            href: https://github.com/emu-hacettepe-analytics/emu430-fall2023-team-data_ciphers
       - icon: linkedin
         href: https://www.linkedin.com/in/doga-oral/
 
